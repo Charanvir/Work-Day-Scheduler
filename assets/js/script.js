@@ -37,19 +37,7 @@ $(".saveBtn").on("click", function () {
     localStorage.setItem(time, text);
 })
 
-// FIRST ATTEMPT AT GET ITEM
-// $("#9").val(localStorage.getItem("hour-9"))
-// $("#10").val(localStorage.getItem("hour-10"))
-// $("#11").val(localStorage.getItem("hour-11"))
-// $("#12").val(localStorage.getItem("hour-12"))
-// $("#13").val(localStorage.getItem("hour-13"))
-// $("#14").val(localStorage.getItem("hour-14"))
-// $("#15").val(localStorage.getItem("hour-15"))
-// $("#16").val(localStorage.getItem("hour-16"))
-// $("#17").val(localStorage.getItem("hour-17"))
-
-
-// WORKING ATTEMPT AT GET ITEM
+// loading text into textareas when page is refreshed, if it is saved in localStorage
 $(".description").each(function () {
     let time = $(this).parent().attr("id");
     let text = localStorage.getItem(time);
