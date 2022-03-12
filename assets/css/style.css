@@ -1,7 +1,8 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 20px;
   line-height: 1;
+  background: linear-gradient(#c33764,#1d2671);
 }
 
 textarea{
@@ -16,8 +17,8 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background: linear-gradient(#1d2671, #c33764);
+  color: white;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -38,9 +39,12 @@ textarea{
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #9198e5;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
 }
 
 .past {
@@ -62,7 +66,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #9198e5;
   color: black;
 }
 
